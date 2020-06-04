@@ -1,1 +1,153 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+
+
+#fondo {
+    height: 975px;
+    width: 100%;
+    background: linear-gradient(145.87deg, #28CEE8 0%, #1884DD 100%);
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+#fondo2{
+  background-image: url("./assets/fondo.png");
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+  background-attachment: fixed;
+  padding:177px 20px;  
+}
+
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+label{
+    color: white;
+}
+
+.logo {
+    display: flex;
+    height: 151px;
+    width: 250px;
+    margin:0 auto;
+}
+.adivina{
+    display: flex;
+    height: 39px;
+    width: 319px;
+    color: #FFFD92;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 39px;
+    margin: 35px auto;
+}
+
+.numero {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+  }
+
+input[type="text"] {
+    height: 78px;
+    width: 271px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 34px auto 0 auto;
+    color: #888888;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 39px;
+    padding: 20px 105px 19px 105px;
+}  
+.consulta{
+    height: 48px;
+    width: 271px;
+    border: none;
+    border-radius: 11px;
+    background-color: #006CD3;
+    outline: none;
+    display: flex;
+    margin: 43px auto 31px auto;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding:15px 23px; 
+       
+}
+
+.again {
+    height: 18px;
+    width: 182px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+  }
+
+  .bordernega{
+    border: 4px solid #D94073 !important ;
+    border-radius: 8px 8px 0 0 !important;
+    background-color: #FFFFFF;
+  }
+
+  .borderpos{
+    border: 4px solid #32ff6a !important ;
+    border-radius: 8px 8px 0 0 !important;
+    background-color: #FFFFFF;
+  }
+
+  .respuestaNegativa{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    background: #D94073;
+    height: 41px;
+    width: 272px;
+    padding: 5px 15px;
+    border-radius: 0 0 8px 8px;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .respuestaCorrecta{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    background: #32ff6a;
+    height: 41px;
+    width: 272px;
+    padding: 5px 15px;
+    border-radius: 0 0 8px 8px;
+    color: white;
+    margin: 0 auto;
+  }
+
+
